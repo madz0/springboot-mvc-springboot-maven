@@ -63,6 +63,19 @@
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-jpamodelgen</artifactId>
+		</dependency>	
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-envers</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
